@@ -17,7 +17,7 @@ spec:
       - name: demo
         image: rubenadi/go-k8s-demo:v1
         ports:
-        - containerPort: 8080
+        - containerPort: 8000
         resources:
           limits:
             cpu: "1"
